@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Styles for the Posts component */
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+  color: #333;
+}
+
+.post p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
